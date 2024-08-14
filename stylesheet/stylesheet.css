@@ -1,0 +1,603 @@
+/* styling for all pages */
+html,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
+}
+
+/* end of styling for all pages */
+
+/* Styling for button */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 60%;
+    display: none;
+    color: white;
+    background-color: rgb(124, 12, 12);
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+}
+/*End of Styling for button */
+
+/* Styling for Navigation Bar */
+.translucent {
+    opacity: 0.9;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 100%;
+}
+
+.active1:hover {
+    opacity: 1.0;
+    transition: 0.5s;
+}
+
+.active1:not(:hover) {
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.navbar-img {
+    margin-right: 2%;
+}
+
+/* end of styling for nav bar */
+
+/* style for parallax scrolling */
+.parallax-header {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)),
+        url(../images/muaythai1.jpeg);
+    background-attachment: fixed;
+    background-position: 0% -110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(80%);
+    transition: all 1s ease-in-out;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
+
+.parallax-header2 {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)),
+        url(../images/bjj_frontpage.jpeg);
+    background-attachment: fixed;
+    background-position: 0% -40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(30%);
+}
+
+.header-content {
+    padding: 100px 0 150px 0;
+}
+
+/* end of styling for parallax scrolling */
+
+/* additional styling */
+img.first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.homepage {
+    color: black;
+    text-align: center;
+    font-size: 150%;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background-color: black;
+}
+
+
+.center {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    background-color: black;
+
+}
+
+p.left {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    position: relative;
+    margin-right: 5%;
+    padding-left: 10%;
+    font-size: large;
+    text-align: left;
+
+}
+
+p.botmarg {
+    margin-bottom: 5%;
+}
+
+p.topmarg {
+    margin-top: 10%;
+}
+
+img.gray {
+    filter: grayscale(85%);
+}
+
+.logo-parallax {
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+/* end of additional styling */
+
+/* flexbox styling */
+.flex-container {
+    display: flex;
+    align-items: center;
+    height: 125%;
+    transition: all 1s ease-in-out;
+}
+
+/* end of flexbox styling */
+
+/* extra styling for homepage */
+#about {
+    max-width: 50%;
+}
+
+#location {
+    position: relative;
+    margin-left: 50%;
+    margin-top: auto;
+    border: 2px solid black;
+}
+
+/* end of extra styling for homepage */
+
+/* Footer styling */
+footer {
+    background-color: rgb(124, 12, 12);
+}
+
+a.footer {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-cpr {
+    text-align: center;
+}
+
+/* footer styling */
+
+/* social media icons */
+.fa {
+    padding: 2%;
+    font-size: 30%;
+    width: 3%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    color: gray;
+    background-color: rgb(124, 12, 12);
+}
+
+.fa-youtube {
+    color: gray;
+    background-color: rgb(124, 12, 12);
+}
+
+.fa-instagram {
+    color: gray;
+    background-color: rgb(124, 12, 12);
+}
+
+/* end social media icon */
+
+/* styling for courses page */
+div.flex-container-course {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+div.flex-container-course>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    max-width: 100%;
+}
+
+h2.right-course {
+    text-align: left;
+    color: white;
+    margin-right: auto;
+}
+
+p.right-course {
+    text-align: left;
+    color: white;
+    margin-right: auto;
+}
+
+img.left {
+    height: 65%;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 5%;
+    margin-right: auto;
+    filter: grayscale(50%);
+}
+
+div.max-width-flex {
+    max-width: 50%;
+}
+
+#muaythai {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.center-signup {
+    text-align: center;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 105;
+}
+
+#text-signup {
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#signup-course {
+    text-decoration: none;
+    background-color: rgb(124, 12, 12);
+    padding: 1%;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#signup-course:hover {
+    padding: 1.1%;
+    transition: 0.4s;
+    background-color: rgb(170, 5, 5);
+}
+
+#signup-course:not(:hover) {
+    padding: 1%;
+    transition: 0.4s;
+}
+
+/* end of styling for courses page */
+
+/* Styling for schedule page */
+#text-schedule {
+    text-align: center;
+    font-size: 150%;
+    color: white;
+    margin-top: 5%;
+}
+
+.class-info {
+    text-align: center;
+    color: white;
+    font-size: 105%;
+    list-style-type: none;
+}
+
+.schedule-table {
+    color: white;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    padding: 1%;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+}
+
+thead {
+    background-color: rgb(124, 12, 12)
+}
+
+.mt-table {
+    background-color: rgba(184, 135, 11, 0.678);
+}
+
+.bjj-table {
+    background-color: rgba(128, 0, 128, 0.61);
+}
+
+.wrest-table {
+    background-color: rgba(0, 100, 0, 0.76);
+}
+
+.box-table {
+    background-color: rgba(0, 0, 139, 0.644);
+}
+
+/* End of Styling for schedule page */
+
+/* Styling for free trial page */
+.center-trial {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.center-trial>p {
+    color: white;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.section-trial {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: rgba(124, 124, 124, 0.082);
+    width: 40%;
+    height: 50%;
+    padding-top: 2%;
+    border-radius: 10px;
+}
+
+.section-trial>form {
+    margin-left: 10%;
+}
+
+#age {
+    width: 15%;
+}
+
+input[type=email],
+[type=text],
+[type=number] {
+    width: 70%;
+}
+
+#Select {
+    width: 70%;
+}
+
+.button-trial {
+    margin-left: 25%;
+    margin-bottom: 5px;
+    padding-bottom: 7%;
+}
+
+/* End of Styling for free trial page */
+
+/* Styling for shop page */
+#cart-icon{
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-top: 50%;
+    margin-left: 50%;
+    color: white;
+}
+/* cart styling for checkout*/
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 25%;
+    min-height: 100vh;
+    padding: 20px;
+    background: black;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%); 
+    opacity: 1.0;
+    transition: ease-in-out 1s;
+}
+
+.cart.active-cart{
+    right: 0;
+    transition: ease-in-out 1s;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 520;
+    margin-top: 5%;
+    color: white;
+}
+
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cart-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 5%;
+}
+
+.detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.cart-price{
+    font-weight: 500;
+    color: white;
+}
+
+.cart-quantity{
+    border: 1px solid var(--text-color);
+    outline-color: var(--main-color);
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cart-remove{
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+    border-top: 1px solid var(--text-color);
+}
+
+.total-title{
+    font-size: 1rem;
+    font-weight: 540;
+    color: white;
+}
+
+.total-price{
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: rgb(124, 12, 12);
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.btn-buy:hover{
+    background: rgb(130, 20, 20);
+    transition: 1s;
+}
+
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+/* end of cart styling for checkout*/
+
+.shop{
+    margin-top: 2rem;
+    color: white;
+}
+
+.section-shop{
+    padding: 4rem 0 3rem;
+    margin-top: 2%;
+}
+
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    margin-bottom: 3%;
+}
+
+/* Shop content */
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, auto));
+    gap: 1.5rem;
+}
+
+.product-box{
+    position: relative;
+    padding-left: 2.5%;
+}
+
+.product-box:not(hover){
+    padding: 2.5%;
+    transition: 0.3s;
+}
+
+.product-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.product-title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.price{
+    font-weight: 500;
+}
+
+.add-cart{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(124, 12, 12);
+    color: white;
+    padding: 5%;
+    cursor: pointer;
+}
+/* End of Shop content */
+/* End of Styling for shop page */
+
+/* Responsive layout for mobile phones that have max width of about 1200px */
+/* Breakpoints */
+@media (max-width: 1080px){
+
+}
