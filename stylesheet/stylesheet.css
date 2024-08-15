@@ -51,7 +51,7 @@ li a {
 #parallax-image1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),
             rgba(0, 0, 0, 0.8)),
-        url(../images/muayThai1.jpeg);
+        url(../images/muaythai1.jpeg);
     height: 700px;
     background-attachment: fixed;
     background-position: 0% -110%;
